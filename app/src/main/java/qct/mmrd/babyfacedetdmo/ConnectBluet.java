@@ -2,6 +2,7 @@ package qct.mmrd.babyfacedetdmo;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothDevice;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -25,11 +26,9 @@ public class ConnectBluet extends Activity {
     public static final int MESSAGE_DEVICE_NAME = 4;
     public static final int MESSAGE_TOAST = 5;
 
-    boolean isConnected = false;
+    public boolean isConnected = false;
 
     private final static String BLUETOOTH_ADDRESS = "6C:40:08:B4:3B:E5";
-
-
 
     public Handler getHandler() {
         return handler;
@@ -63,7 +62,7 @@ public class ConnectBluet extends Activity {
 
         dialog.show();
     }
-
+    // 连接蓝牙的各种状况
     @SuppressWarnings("unused")
     private Handler mhandler = new Handler() {
         public void handleMessage(Message msg) {
@@ -80,7 +79,11 @@ public class ConnectBluet extends Activity {
                             break;
                         case BlueToothService.SUCCESS_CONNECT:
                             isConnected = true;
-                            Toast.makeText(ConnectBluet.this, "连接成功", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ConnectBluet.this, "连接成功", Toast.LENGTH_SHORT).show();//连接蓝牙成功，要进入下一个activity了
+                            Intent intent=new Intent();
+                            intent.setClass(ConnectBluet.this, MainActivity.class); //设置跳转的Activity
+                            MainActivity.mBTService=mBTService;
+                            ConnectBluet.this.startActivity(intent);
                             dialog.dismiss() ;
                             break;
                         case BlueToothService.FAILED_CONNECT:
@@ -117,6 +120,7 @@ public class ConnectBluet extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.connectbt);
+        //首先先创建一个BTservice，作为蓝牙通信服务
         mBTService = new BlueToothService(this, mhandler);// 创建对象的时候必须有一个是Handler类型
 
         if (!mBTService.IsOpen()) {
@@ -131,8 +135,7 @@ public class ConnectBluet extends Activity {
                 // TODO Auto-generated method stub
                 if (device != null) {
                     if (dialog != null) {
-                        dialog.addDeviceForAdapter(device.getName() + "\n"
-                                + device.getAddress());
+                        dialog.addDeviceForAdapter(device.getName() + "\n" + device.getAddress());
                     }
                 } else {
                     Message msg = new Message();
@@ -141,7 +144,7 @@ public class ConnectBluet extends Activity {
                 }
             }
         });
-
+        //按下搜索设备按钮开始进行
         findViewById(R.id.btnSearch).setOnClickListener(
                 new View.OnClickListener() {
 
