@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BFDMainActivity" >
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bar" />
+
+    <qct.mmrd.babyfacedetdmo.MyImageView
+        android:id="@+id/activityView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/fpsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#ff0000" />
+
+    <ImageButton
+        android:id="@+id/img_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:padding="10dp"
+        android:src="@drawable/ic_switch_camera" />
+
+    <View
+        android:id="@+id/touch_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/red_frame"
+         />
+
+    <View
+        android:id="@+id/system_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp" 
+         android:background="@drawable/green_frame"
+        />
+    
+    <Button
+        android:id="@+id/search_bluetooth"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textSize="14sp"
+        android:background="#ffffff"
+        android:text="搜索蓝牙"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    
+     <Button
+        android:id="@+id/start_send"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@+id/search_bluetooth"
+        android:background="#ffffff"
+        android:text="开始发送"
+        />
+
+</RelativeLayout>
