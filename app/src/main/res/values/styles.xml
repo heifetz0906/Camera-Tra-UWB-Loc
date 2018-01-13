@@ -11,13 +11,10 @@
             backward-compatibility can go here.
         -->
     </style>
-    <!-- 设置无标题 theme -->
-    <style name="notitle">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-    </style>
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 

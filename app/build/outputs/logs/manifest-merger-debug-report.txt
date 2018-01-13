@@ -62,7 +62,7 @@ ADDED from D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\src\main\AndroidManif
 	android:icon
 		ADDED from D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\src\main\AndroidManifest.xml:23:9-47
 	android:theme
-		ADDED from D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\src\main\AndroidManifest.xml:25:9-39
+		ADDED from D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\src\main\AndroidManifest.xml:25:9-40
 activity#qct.mmrd.babyfacedetdmo.ConnectBluet
 ADDED from D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\src\main\AndroidManifest.xml:26:9-33:20
 	android:label

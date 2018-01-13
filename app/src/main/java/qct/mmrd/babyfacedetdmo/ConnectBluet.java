@@ -1,6 +1,7 @@
 package qct.mmrd.babyfacedetdmo;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothDevice;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -116,6 +117,30 @@ public class ConnectBluet extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.connectbt);
+        mBTService = new BlueToothService(this, mhandler);// 创建对象的时候必须有一个是Handler类型
+
+        if (!mBTService.IsOpen()) {
+            mBTService.OpenDevice();
+        }
+
+        //接受到蓝牙的时候
+        mBTService.setOnReceive(new BlueToothService.OnReceiveDataHandleEvent() {
+
+            @Override
+            public void OnReceive(BluetoothDevice device) {
+                // TODO Auto-generated method stub
+                if (device != null) {
+                    if (dialog != null) {
+                        dialog.addDeviceForAdapter(device.getName() + "\n"
+                                + device.getAddress());
+                    }
+                } else {
+                    Message msg = new Message();
+                    msg.what = 1;
+                    handler.sendMessage(msg);
+                }
+            }
+        });
 
         findViewById(R.id.btnSearch).setOnClickListener(
                 new View.OnClickListener() {

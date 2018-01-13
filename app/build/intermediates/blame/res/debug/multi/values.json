@@ -1876,54 +1876,33 @@
                     "startLine": 163,
                     "startColumn": 4,
                     "startOffset": 7167,
-                    "endLine": 165,
+                    "endLine": 167,
                     "endColumn": 12,
-                    "endOffset": 7322
-                },
-                "from": {
-                    "file": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 706,
-                        "endLine": 21,
-                        "endColumn": 12,
-                        "endOffset": 863
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 166,
-                    "startColumn": 4,
-                    "startOffset": 7327,
-                    "endLine": 174,
-                    "endColumn": 12,
-                    "endOffset": 7836
-                },
-                "from": {
-                    "file": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 175,
-                    "startColumn": 4,
-                    "startOffset": 7841,
-                    "endLine": 178,
-                    "endColumn": 12,
-                    "endOffset": 7989
+                    "endOffset": 7435
                 },
                 "from": {
                     "file": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 516,
-                        "endLine": 17,
+                        "startOffset": 523,
+                        "endLine": 18,
                         "endColumn": 12,
-                        "endOffset": 667
+                        "endOffset": 795
                     }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 7440,
+                    "endLine": 176,
+                    "endColumn": 12,
+                    "endOffset": 7949
+                },
+                "from": {
+                    "file": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]
