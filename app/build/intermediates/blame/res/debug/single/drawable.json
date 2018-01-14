@@ -1,10 +1,266 @@
 [
     {
-        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_frame.xml",
-        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\green_frame.xml"
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\danjian.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\danjian.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plant.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\plant.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dingdian.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\dingdian.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shoudong.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\shoudong.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plug.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\plug.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qiangli.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\qiangli.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_frame.xml",
         "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\red_frame.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_media_play.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\ic_media_play.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\huichong.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\huichong.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yanbian.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\yanbian.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fengge.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\fengge.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\df3b70f4dbce537606a30ae140ca9dcbc492bf13\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\df3b70f4dbce537606a30ae140ca9dcbc492bf13\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_frame.xml",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\green_frame.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kaiguan.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\kaiguan.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\side.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guihua.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\guihua.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hand.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\hand.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\strong.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\strong.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\house.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\house.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\biaozhun.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\biaozhun.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\df3b70f4dbce537606a30ae140ca9dcbc492bf13\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_ui.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\app_ui.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blank.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\blank.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\power.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\power.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\df3b70f4dbce537606a30ae140ca9dcbc492bf13\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     }
 ]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\59732\.android\build-cache\d000ecb171e87a247374d92f88342cb023b885dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\classes_fd635b8d6b82967570943602ff5f86477cc2f386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\59732\.android\build-cache\6421ae63cd024f87be1c8796cc1a700ac7fc0bb0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\classes_e308c6a5c740a3b2022dbff2b6e05f65042dc6a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_b4ccde16461f0b69161a380a3795d61333a6fb44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\59732\.android\build-cache\76b692260a433dbdd63b758a280d4e18944c4575\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\classes_a8ed170d3f0c0ceea617af3d0cb1666008767e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_4010ec5aa8f179d293d01dffc4d47921c2607518.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\59732\.android\build-cache\6421ae63cd024f87be1c8796cc1a700ac7fc0bb0\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\XingMiao_RNN_AGV\APP\BabyFaceDetDmo12011\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_9cc4dc074d98c98ddcce068bac18ad812b23d217.jar" />
+    </item>
+
+</items>

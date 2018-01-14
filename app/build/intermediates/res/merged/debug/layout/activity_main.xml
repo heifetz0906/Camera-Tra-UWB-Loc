@@ -1,6 +1,334 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightgray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="qct.mmrd.babyfacedetdmo.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TxStatus"
+                style="@style/subtitle_text"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/Text_Status_stop"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/Iv_fenge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/fengge"/>
+
+            <TextView
+                android:id="@+id/TxPower"
+                style="@style/subtitle_text"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/Text_Power"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/TxPowerStatus"
+                style="@style/subtitle_text"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="  %"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/Txconnect"
+                style="@style/subtitle_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="right|center_vertical"
+                android:text="@string/Text_is_connect"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/Sw_1"
+                style="@style/subtitle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="@string/Text_Switch"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:stretchColumns="1"
+            >
+
+
+            <!--TableRow 表示行，每行里面就可以 通过其他View来实现我们想要的方格-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                >
+
+                <ImageView
+                    android:id="@+id/Iv_guihua"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow"/>
+
+                <ImageView
+                    android:id="@+id/Iv_danjian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/house"/>
+
+                <ImageView
+                    android:id="@+id/Iv_yanbian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/side" />
+
+                <ImageView
+                    android:id="@+id/Iv_dindian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/location" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray">
+
+                <ImageView
+                    android:id="@+id/Iv_blank1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/blank"/>
+
+                <ImageView
+                    android:id="@+id/Iv_huichong"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/plug"/>
+
+                <ImageView
+                    android:id="@+id/Iv_shoudong"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/hand"/>
+
+                <ImageView
+                    android:id="@+id/Iv_blank2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/blank"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/Bt_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                style="@style/subtitle_text"
+                android:text="@string/Button_up"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Bt_nishizheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/subtitle_text"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                android:text="@string/Button_nishizheng"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/Bt_left"/>
+            <Button
+                android:id="@+id/Bt_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/Bt_play"
+                style="@style/subtitle_text"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                android:text="@string/Button_left"/>
+            <ImageButton
+                android:id="@+id/Bt_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@color/lightgray"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/Bt_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/Bt_play"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                style="@style/subtitle_text"
+                android:text="@string/Button_right"/>
+            <Button
+                android:id="@+id/Bt_shunshizheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                style="@style/subtitle_text"
+                android:text="@string/Button_shushizheng"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/Bt_right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Bt_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:textColor="@color/black"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                style="@style/subtitle_text"
+                android:text="@string/Button_down"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/Iv_strong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="45dp"
+                android:src="@drawable/strong"/>
+
+            <ImageView
+                android:id="@+id/Iv_standard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/plant"/>
+
+            <ImageView
+                android:id="@+id/Iv_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:src="@drawable/power"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/subtitle_text"
+                android:textColor="@color/black"
+                android:text="关闭"
+                android:layout_marginStart="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/subtitle_text"
+                android:textColor="@color/black"
+                android:text="标准"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/subtitle_text"
+                android:textColor="@color/black"
+                android:text="强力"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="55dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

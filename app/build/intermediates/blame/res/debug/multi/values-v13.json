@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 369
+                },
+                "from": {
+                    "file": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\values-v13\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 379
+                    }
+                }
+            }
+        ]
+    }
+]

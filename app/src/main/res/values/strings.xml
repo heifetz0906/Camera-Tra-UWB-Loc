@@ -4,5 +4,16 @@
     <string name="app_name">RNN_AGV</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="Text_Status_contiune">启动</string>
+    <string name="Text_Status_stop">暂停</string>
+    <string name="Text_Power">剩余电量</string>
+    <string name="Text_Switch">开关</string>
+    <string name="Button_up">向前</string>
+    <string name="Button_down">向后</string>
+    <string name="Button_nishizheng">逆时针</string>
+    <string name="Button_shushizheng">顺时针</string>
+    <string name="Button_right">向右</string>
+    <string name="Button_left">向左</string>
+    <string name="Text_not_connect">未连接</string>
+    <string name="Text_is_connect">已连接</string>
 </resources>

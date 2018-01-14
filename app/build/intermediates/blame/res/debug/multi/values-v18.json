@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 48,
+                        "endOffset": 320
+                    }
+                }
+            }
+        ]
+    }
+]

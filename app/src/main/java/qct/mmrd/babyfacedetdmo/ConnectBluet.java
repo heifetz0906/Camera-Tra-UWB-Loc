@@ -83,6 +83,7 @@ public class ConnectBluet extends Activity {
                             Intent intent=new Intent();
                             intent.setClass(ConnectBluet.this, MainActivity.class); //设置跳转的Activity
                             MainActivity.mBTService=mBTService;
+                            MainActivity.isConnected=isConnected;
                             ConnectBluet.this.startActivity(intent);
                             dialog.dismiss() ;
                             break;

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 61,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endColumn": 71,
+                        "endOffset": 631
+                    }
+                }
+            }
+        ]
+    }
+]
