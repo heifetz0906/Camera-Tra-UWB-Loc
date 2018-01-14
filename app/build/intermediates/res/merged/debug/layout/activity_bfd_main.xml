@@ -46,27 +46,16 @@
         android:layout_height="0dp" 
          android:background="@drawable/green_frame"
         />
-    
+
     <Button
-        android:id="@+id/search_bluetooth"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:textSize="14sp"
-        android:background="#ffffff"
-        android:text="搜索蓝牙"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-    
-     <Button
         android:id="@+id/start_send"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginRight="10dp"
         android:textSize="14sp"
-        android:layout_toLeftOf="@+id/search_bluetooth"
         android:background="#ffffff"
         android:text="开始发送"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -111,6 +111,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:src="@drawable/arrow"/>
 
                 <ImageView
@@ -138,6 +139,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
                 android:background="@color/lightgray">
 
                 <ImageView

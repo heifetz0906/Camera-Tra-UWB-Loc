@@ -42,6 +42,9 @@ import android.widget.RelativeLayout.LayoutParams;
 
 public class BFDMainActivity extends Activity {
 
+    public static BlueToothService mBTService;
+    public static boolean isConnected;
+
     private final String TAG = BFDMainActivity.this.getClass().getSimpleName();
 
     private final int MAX_FRAME_BUFF_NO = 6;
@@ -94,14 +97,7 @@ public class BFDMainActivity extends Activity {
     private TimerTask mFpsTimerTask;
 
 
-    private BlueToothService mBTService = null;
-    public static final int MESSAGE_STATE_CHANGE = 1;
-    public static final int MESSAGE_READ = 2;
-    public static final int MESSAGE_WRITE = 3;
-    public static final int MESSAGE_DEVICE_NAME = 4;
-    public static final int MESSAGE_TOAST = 5;
 
-    boolean isConnected = false;
     private View touchFrame, systemFrame;
 
     private TouchEventHelper mTouchEventHelper;
@@ -133,89 +129,7 @@ public class BFDMainActivity extends Activity {
             });
         }
     };
-    
-    public Handler getHandler() {
-		return handler;
-	}
 
-	private Handler handler = new Handler() {
-		@Override
-		public void handleMessage(Message msg) {
-			super.handleMessage(msg);
-			switch (msg.what) {
-			case 0:
-				break;
-			case 1:// 扫描完毕
-					// progressDialog.cancel();
-				mBTService.StopScan();
-				break;
-			case 2:// 停止扫描
-				break;
-			}
-		}
-	};
-
-	ConnectBlueToothDialog dialog;
-
-	// 弹出蓝牙列表
-	public void showDialog() {
-		dialog = new ConnectBlueToothDialog(BFDMainActivity.this,
-				R.style.confirmDialog1);
-		dialog.setmBTService(mBTService);
-
-		dialog.show();
-	}
-
-    @SuppressWarnings("unused")
-    private Handler mhandler = new Handler() {
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-            switch (msg.what) {
-                case MESSAGE_STATE_CHANGE:// è“�ç‰™è¿žæŽ¥çŠ¶æ€�
-                    switch (msg.arg1) {
-                        case BlueToothService.STATE_CONNECTED:// å·²ç»�è¿žæŽ¥
-                            break;
-                        case BlueToothService.STATE_CONNECTING:// æ­£åœ¨è¿žæŽ¥
-                            break;
-                        case BlueToothService.STATE_LISTEN:
-                        case BlueToothService.STATE_NONE:
-                            break;
-                        case BlueToothService.SUCCESS_CONNECT: // è¿žæŽ¥æˆ�åŠŸ
-                            isConnected = true;
-                            Toast.makeText(BFDMainActivity.this, "连接成功",
-                                    Toast.LENGTH_SHORT).show();
-                            dialog.dismiss() ;
-                            break;
-                        case BlueToothService.FAILED_CONNECT: // è¿žæŽ¥å¤±è´¥
-                            Toast.makeText(BFDMainActivity.this, "连接失败",
-                                    Toast.LENGTH_SHORT).show();
-                            break;
-                        case BlueToothService.LOSE_CONNECT:
-                            isConnected = false;
-                            Toast.makeText(BFDMainActivity.this, "失去连接", Toast.LENGTH_SHORT).show();
-                            switch (msg.arg2) {
-                                case -1:
-                                    isConnected = false;
-                                    break;
-                                case 0:
-                                    break;
-                            }
-                    }
-                    break;
-                case MESSAGE_READ:
-                    try {
-                        String info = (String) msg.obj;
-                        Log.e(TAG, "info:======" + info);
-                    } catch (Exception e) {
-                        Log.e("MESSAGE_READ", e.getMessage());
-                    }
-                    break;
-                case MESSAGE_WRITE:
-                    break;
-
-            }
-        }
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -225,32 +139,6 @@ public class BFDMainActivity extends Activity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_bfd_main);
-        
-        mBTService = new BlueToothService(this, mhandler);// 创建对象的时候必须有一个是Handler类型
-
-		if (!mBTService.IsOpen()) {
-			mBTService.OpenDevice();
-		}
-		
-		 //接受到蓝牙的时候
-        mBTService.setOnReceive(new BlueToothService.OnReceiveDataHandleEvent() {
-
-            @Override
-            public void OnReceive(BluetoothDevice device) {
-                // TODO Auto-generated method stub
-                if (device != null) {
-                    if (dialog != null) {
-                        dialog.addDeviceForAdapter(device.getName() + "\n"
-                                + device.getAddress());
-                    }
-                } else {
-                    Message msg = new Message();
-                    msg.what = 1;
-                    handler.sendMessage(msg);
-
-                }
-            }
-        });
 
         touchFrame = findViewById(R.id.touch_frame);
         systemFrame = findViewById(R.id.system_frame);
@@ -378,16 +266,6 @@ public class BFDMainActivity extends Activity {
             }
         });
         Log.d(TAG, " OnCreate--");
-        
-        findViewById(R.id.search_bluetooth).setOnClickListener(
-				new OnClickListener() {
-
-					@Override
-					public void onClick(View v) {
-						// TODO Auto-generated method stub
-						showDialog() ;
-					}
-				});
 
 		findViewById(R.id.start_send).setOnClickListener(new OnClickListener() {
 

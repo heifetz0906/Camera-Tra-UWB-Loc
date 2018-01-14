@@ -1,10 +1,12 @@
 package qct.mmrd.babyfacedetdmo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +27,7 @@ public class MainActivity extends Activity {
     private boolean startSend=true;
     private TextView txconnect,txPowerStatus,txStatus;
     private Button Btup, Btdown, Btnishizheng, Btshunshizheng, Btright, Btleft;
+    private ImageView ivguihua;
     private String sendString;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,18 +47,31 @@ public class MainActivity extends Activity {
         Btshunshizheng= (Button) findViewById(R.id.Bt_shunshizheng);
         Btright= (Button) findViewById(R.id.Bt_right);
         Btleft= (Button) findViewById(R.id.Bt_left);
+        ivguihua= (ImageView) findViewById(R.id.Iv_guihua);
         Btup.setOnTouchListener(buttonListener);
         Btdown.setOnTouchListener(buttonListener);
         Btnishizheng.setOnTouchListener(buttonListener);
         Btshunshizheng.setOnTouchListener(buttonListener);
         Btleft.setOnTouchListener(buttonListener);
         Btright.setOnTouchListener(buttonListener);
+        ivguihua.setOnClickListener(buttonListener);
     }
 
     class ButtonListener implements View.OnClickListener, View.OnTouchListener {
 
         public void onClick(View v) {
-
+            switch (v.getId())
+            {
+                case R.id.Iv_guihua:
+                    Intent intent=new Intent();
+                    intent.setClass(MainActivity.this, BFDMainActivity.class); //设置跳转的Activity
+                    BFDMainActivity.mBTService=mBTService;
+                    BFDMainActivity.isConnected=isConnected;
+                    MainActivity.this.startActivity(intent);
+                    break;
+                default:
+                    break;
+            }
         }
 
         @Override
