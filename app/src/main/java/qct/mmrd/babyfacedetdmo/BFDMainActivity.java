@@ -46,7 +46,8 @@ public class BFDMainActivity extends Activity {
     public static boolean isConnected;
 
     private final String TAG = BFDMainActivity.this.getClass().getSimpleName();
-
+    public FollowOBJ obj;
+    private boolean setStauts=true;
     private final int MAX_FRAME_BUFF_NO = 6;
     static public final int MAX_NUM_FACES = 10;
     static public final int NUM_FRAMES_FILTER = 7; //num frames for filtering
@@ -147,6 +148,7 @@ public class BFDMainActivity extends Activity {
 
         mGLView = (GLSurfaceView) findViewById(R.id.surfaceView);
         mActivityView = (MyImageView) this.findViewById(R.id.activityView);
+        obj =new FollowOBJ(0,0,0,0);
         numFaceDet = new int[1];
         mFaceScores = new byte[MAX_NUM_FACES];
         mFaceBoundingBoxes = new float[8 * MAX_NUM_FACES];
@@ -618,15 +620,30 @@ public class BFDMainActivity extends Activity {
     private void calculateViewPosition(float x, float y, float ex, float ey) {
     	if(isInit == 1){
     		RelativeLayout.LayoutParams rl = (LayoutParams) systemFrame.getLayoutParams();
-            rl.leftMargin = (int) Math.min(x, ex);
-            rl.topMargin = (int) Math.min(y, ey);
-            rl.width = Math.abs((int) (x - ex));
-            rl.height = Math.abs((int) (y - ey));
+            rl.leftMargin = (int) Math.min(x, ex);//leftMArgin为与左边沿的距离
+            rl.topMargin = (int) Math.min(y, ey);//topMargin为与上边沿的距离
+            rl.width = Math.abs((int)(x - ex));//width为宽度
+            rl.height = Math.abs((int)(y - ey));//height为高度  思路。控制4个距离在一个范围里
+            if(setStauts==true)
+            {
+                obj.setX(rl.leftMargin);
+                obj.setY(rl.topMargin);
+                obj.setWidth(rl.width);
+                obj.setHeight(rl.height);
+                setStauts=false;
+            }
+            else {
+                obj.setNow_x(rl.leftMargin);
+                obj.setNow_y(rl.topMargin);
+                obj.setNow_width(rl.width);
+                obj.setNow_height(rl.height);
 
-            String sendString = "A"+rl.leftMargin + "\rB" + rl.topMargin + "\rC" + rl.width + "\rD" + rl.height + "\n";
-        	if(isConnected && startSend){
-    			mBTService.write(sendString.getBytes());
-    		}
+                //String sendString = "A"+obj.x_error + "\rB" + obj.y_error + "\rC" + obj.w_error + "\rD" + obj.w_error + "\n";
+
+                if(isConnected && startSend){
+                    mBTService.write(sendString.getBytes());
+                }
+            }
             systemFrame.setLayoutParams(rl);
     	}
         
@@ -681,6 +698,12 @@ public class BFDMainActivity extends Activity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+
     static {
         System.loadLibrary("BabyFaceDetDemo");
     }
@@ -692,5 +715,8 @@ public class BFDMainActivity extends Activity {
 //    private static native void deInitFaceDet();
 //
 //    private static native void flipVerticalYUV(byte[] yuvIn, int width, int height, byte[] yOut, byte[] uvOut);
+
+
+
 
 }

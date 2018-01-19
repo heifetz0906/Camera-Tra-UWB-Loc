@@ -44,16 +44,16 @@
         "source": "C:\\Users\\59732\\.android\\build-cache\\33e393193f50d2472fdcbac93d9c3786acc45447\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plant.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\plant.png"
     },
     {
         "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dingdian.png",
         "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\dingdian.png"
     },
     {
-        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plant.png",
-        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\plant.png"
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\59732\\.android\\build-cache\\76b692260a433dbdd63b758a280d4e18944c4575\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qiangli.png",
-        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\qiangli.png"
-    },
-    {
         "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plug.png",
         "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\plug.png"
+    },
+    {
+        "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qiangli.png",
+        "source": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\src\\main\\res\\drawable\\qiangli.png"
     },
     {
         "merged": "D:\\XingMiao_RNN_AGV\\APP\\BabyFaceDetDmo12011\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",

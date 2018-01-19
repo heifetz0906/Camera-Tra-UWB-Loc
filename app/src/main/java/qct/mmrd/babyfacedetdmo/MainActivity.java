@@ -167,5 +167,9 @@ public class MainActivity extends Activity {
             return false;
         }
     }
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
