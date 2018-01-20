@@ -14,20 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f72254-4cf2-48a6-9b3a-758c1d484f1f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/FollowOBJ.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/FollowOBJ.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_92e9e84c6aa4c6e6852add3aa6a287747e72eca2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_92e9e84c6aa4c6e6852add3aa6a287747e72eca2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" afterPath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" />
     </list>
     <ignored path="BabyFaceDetDmo1201.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,37 +55,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FollowOBJ.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java">
+      <file leaf-file-name="BFDMainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="278">
+              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#FollowOBJ#0;class#FollowOBJ#0" expanded="true" />
-                <element signature="method#setNow_x#0;class#FollowOBJ#0" expanded="true" />
-                <element signature="method#setNow_y#0;class#FollowOBJ#0" expanded="true" />
-                <element signature="method#setNow_width#0;class#FollowOBJ#0" expanded="true" />
-                <element signature="method#setNow_height#0;class#FollowOBJ#0" expanded="true" />
+                <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
+                <element signature="e#6782#6855#0" expanded="false" />
+                <element signature="e#7232#10024#0" expanded="true" />
+                <element signature="e#10023#10024#0" expanded="true" />
+                <element signature="method#dispatchTouchEvent#0;class#BFDMainActivity#0" expanded="true" />
+                <element signature="method#onPreviewFrame#0;class#CameraLoader#0;class#BFDMainActivity#0" expanded="true" />
+                <element signature="e#17167#17232#0" expanded="false" />
+                <element signature="e#21393#21611#0" expanded="true" />
+                <element signature="e#21610#21611#0" expanded="true" />
+                <element signature="method#run#0;class#BFDFrameProcessing#0;class#BFDMainActivity#0" expanded="true" />
+                <element signature="method#onBackPressed#0;class#BFDMainActivity#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BFDMainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="file://H:/Android/sdk/sources/android-23/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3795">
-              <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
-              <folding>
-                <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
-                <element signature="e#6782#6855#0" expanded="false" />
-                <element signature="method#dispatchTouchEvent#0;class#BFDMainActivity#0" expanded="true" />
-                <element signature="method#run#0;class#RenderThread#0;class#BFDMainActivity#0" expanded="true" />
-                <element signature="method#run#0;class#BFDFrameProcessing#0;class#BFDMainActivity#0" expanded="true" />
-                <element signature="method#onBackPressed#0;class#BFDMainActivity#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="278">
+              <caret line="204" column="30" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_bfd_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bfd_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -99,8 +106,49 @@
             <state relative-caret-position="1909">
               <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
               <folding>
-                <element signature="method#write#0;class#BlueToothService#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="method#SetWriteState#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#BlueToothService#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#HasDevice#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#IsOpen#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#OpenDevice#0;class#BlueToothService#0" expanded="false" />
+                <element signature="e#2804#2805#0" expanded="false" />
+                <element signature="e#2828#2829#0" expanded="false" />
+                <element signature="method#GetBondedDevice#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#ScanDevice#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#StopScan#0;class#BlueToothService#0" expanded="false" />
+                <element signature="e#3871#3872#0" expanded="false" />
+                <element signature="e#3894#3895#0" expanded="false" />
+                <element signature="e#3959#3960#0" expanded="false" />
+                <element signature="e#3987#3988#0" expanded="false" />
+                <element signature="method#onReceive#0;class#4039:4943" expanded="false" />
+                <element signature="method#OnFinished#0;class#4039:4943" expanded="false" />
+                <element signature="method#ConnectToDevice#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#start#0;class#BlueToothService#0" expanded="false" />
+                <element signature="e#6129#6130#0" expanded="false" />
+                <element signature="e#6150#6151#0" expanded="false" />
                 <element signature="method#getState#0;class#BlueToothService#0" expanded="false" />
+                <element signature="e#6264#6265#0" expanded="false" />
+                <element signature="e#6288#6289#0" expanded="false" />
+                <element signature="method#GetScanState#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#connect#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#DisConnected#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#connected#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#stop#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#connectionSuccess#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#connectionFailed#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#connectionLost#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#Nopointstart#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#AcceptThread#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#run#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#cancel#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#ConnectThread#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#run#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#cancel#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#ConnectedThread#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#run#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#write#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+                <element signature="method#cancel#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,8 +160,110 @@
             <state relative-caret-position="8372">
               <caret line="519" column="18" selection-start-line="519" selection-start-column="18" selection-end-line="519" selection-end-column="18" />
               <folding>
-                <element signature="e#19077#19078#0" expanded="true" />
-                <element signature="e#19134#19135#0" expanded="true" />
+                <element signature="e#0#58450#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2110#2111#0" expanded="false" />
+                <element signature="e#2167#2168#0" expanded="false" />
+                <element signature="initializer##0;class#String#0" expanded="false" />
+                <element signature="e#2794#2795#0" expanded="false" />
+                <element signature="e#2879#2880#0" expanded="false" />
+                <element signature="method#String#1;class#String#0" expanded="false" />
+                <element signature="method#String#2;class#String#0" expanded="false" />
+                <element signature="method#String#3;class#String#0" expanded="false" />
+                <element signature="method#String#4;class#String#0" expanded="false" />
+                <element signature="method#String#5;class#String#0" expanded="false" />
+                <element signature="method#String#6;class#String#0" expanded="false" />
+                <element signature="method#String#7;class#String#0" expanded="false" />
+                <element signature="method#String#8;class#String#0" expanded="false" />
+                <element signature="method#String#9;class#String#0" expanded="false" />
+                <element signature="method#String#10;class#String#0" expanded="false" />
+                <element signature="method#String#11;class#String#0" expanded="false" />
+                <element signature="method#String#12;class#String#0" expanded="false" />
+                <element signature="method#String#13;class#String#0" expanded="false" />
+                <element signature="method#String#14;class#String#0" expanded="false" />
+                <element signature="method#String#15;class#String#0" expanded="false" />
+                <element signature="method#indexAndLength#0;class#String#0" expanded="false" />
+                <element signature="method#startEndAndLength#0;class#String#0" expanded="false" />
+                <element signature="method#failedBoundsCheck#0;class#String#0" expanded="false" />
+                <element signature="method#foldCase#0;class#String#0" expanded="false" />
+                <element signature="method#compareToIgnoreCase#0;class#String#0" expanded="false" />
+                <element signature="method#copyValueOf#0;class#String#0" expanded="false" />
+                <element signature="method#copyValueOf#1;class#String#0" expanded="false" />
+                <element signature="method#endsWith#0;class#String#0" expanded="false" />
+                <element signature="method#equals#0;class#String#0" expanded="false" />
+                <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+                <element signature="method#getBytes#0;class#String#0" expanded="false" />
+                <element signature="method#getBytes#2;class#String#0" expanded="false" />
+                <element signature="method#getBytes#3;class#String#0" expanded="false" />
+                <element signature="method#getChars#0;class#String#0" expanded="false" />
+                <element signature="method#hashCode#0;class#String#0" expanded="false" />
+                <element signature="method#indexOf#0;class#String#0" expanded="false" />
+                <element signature="method#indexOf#1;class#String#0" expanded="false" />
+                <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
+                <element signature="method#indexOf#2;class#String#0" expanded="false" />
+                <element signature="method#indexOf#3;class#String#0" expanded="false" />
+                <element signature="e#27409#27410#0" expanded="false" />
+                <element signature="e#27442#27443#0" expanded="false" />
+                <element signature="method#lastIndexOf#0;class#String#0" expanded="false" />
+                <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
+                <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+                <element signature="method#lastIndexOf#2;class#String#0" expanded="false" />
+                <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
+                <element signature="e#30964#30965#0" expanded="false" />
+                <element signature="e#30992#30993#0" expanded="false" />
+                <element signature="method#regionMatches#0;class#String#0" expanded="false" />
+                <element signature="method#regionMatches#1;class#String#0" expanded="false" />
+                <element signature="method#replace#0;class#String#0" expanded="false" />
+                <element signature="method#replace#1;class#String#0" expanded="false" />
+                <element signature="e#37343#37344#0" expanded="false" />
+                <element signature="e#37387#37388#0" expanded="false" />
+                <element signature="method#startsWith#1;class#String#0" expanded="false" />
+                <element signature="method#substring#0;class#String#0" expanded="false" />
+                <element signature="method#substring#1;class#String#0" expanded="false" />
+                <element signature="e#40011#40012#0" expanded="false" />
+                <element signature="e#40083#40084#0" expanded="false" />
+                <element signature="e#40906#40907#0" expanded="false" />
+                <element signature="e#40965#40966#0" expanded="false" />
+                <element signature="e#41055#41056#0" expanded="false" />
+                <element signature="e#41082#41083#0" expanded="false" />
+                <element signature="e#41415#41416#0" expanded="false" />
+                <element signature="e#41494#41495#0" expanded="false" />
+                <element signature="e#42322#42323#0" expanded="false" />
+                <element signature="e#42388#42389#0" expanded="false" />
+                <element signature="method#trim#0;class#String#0" expanded="false" />
+                <element signature="method#valueOf#0;class#String#0" expanded="false" />
+                <element signature="method#valueOf#1;class#String#0" expanded="false" />
+                <element signature="method#valueOf#2;class#String#0" expanded="false" />
+                <element signature="e#44429#44430#0" expanded="false" />
+                <element signature="e#44474#44475#0" expanded="false" />
+                <element signature="e#44600#44601#0" expanded="false" />
+                <element signature="e#44644#44645#0" expanded="false" />
+                <element signature="e#44766#44767#0" expanded="false" />
+                <element signature="e#44812#44813#0" expanded="false" />
+                <element signature="e#44936#44937#0" expanded="false" />
+                <element signature="e#44979#44980#0" expanded="false" />
+                <element signature="e#45385#45386#0" expanded="false" />
+                <element signature="e#45449#45450#0" expanded="false" />
+                <element signature="e#45796#45797#0" expanded="false" />
+                <element signature="e#45843#45844#0" expanded="false" />
+                <element signature="method#contentEquals#0;class#String#0" expanded="false" />
+                <element signature="method#contentEquals#1;class#String#0" expanded="false" />
+                <element signature="method#matches#0;class#String#0" expanded="false" />
+                <element signature="method#replaceAll#0;class#String#0" expanded="false" />
+                <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
+                <element signature="e#50307#50308#0" expanded="false" />
+                <element signature="e#50357#50358#0" expanded="false" />
+                <element signature="method#split#1;class#String#0" expanded="false" />
+                <element signature="e#51666#51667#0" expanded="false" />
+                <element signature="e#51710#51711#0" expanded="false" />
+                <element signature="method#codePointAt#0;class#String#0" expanded="false" />
+                <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
+                <element signature="method#codePointCount#0;class#String#0" expanded="false" />
+                <element signature="method#contains#0;class#String#0" expanded="false" />
+                <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
+                <element signature="method#format#0;class#String#0" expanded="false" />
+                <element signature="method#format#1;class#String#0" expanded="false" />
+                <element signature="method#indexOf#4;class#String#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -125,10 +275,7 @@
             <state relative-caret-position="276">
               <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
-                <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-                <element signature="method#onClick#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-                <element signature="method#onTouch#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-                <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -139,7 +286,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1219">
               <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#3918#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3202#3203#0" expanded="false" />
+                <element signature="e#3237#3238#0" expanded="false" />
+                <element signature="method#ImageButton#1;class#ImageButton#0" expanded="false" />
+                <element signature="method#ImageButton#2;class#ImageButton#0" expanded="false" />
+                <element signature="method#ImageButton#3;class#ImageButton#0" expanded="false" />
+                <element signature="e#3767#3768#0" expanded="false" />
+                <element signature="e#3795#3796#0" expanded="false" />
+                <element signature="e#3864#3865#0" expanded="false" />
+                <element signature="e#3914#3915#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2305,8 +2464,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bfd_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java" />
       </list>
     </option>
   </component>
@@ -2351,6 +2510,48 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BabyFaceDetDmo12011" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BabyFaceDetDmo12011" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="babyfacedetdmo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BabyFaceDetDmo12011" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -2359,7 +2560,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="H:/Android/sdk" />
-    <property name="device.picker.selection" value="f3412ee5" />
+    <property name="device.picker.selection" value="A02AECPJ2HEWZ" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2713,13 +2914,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40513393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108208954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -2732,7 +2934,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2749,40 +2950,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/ConnectBlueToothDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="32" />
-          <folding>
-            <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="e#6782#6855#0" expanded="false" />
-            <element signature="method#dispatchTouchEvent#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#run#0;class#RenderThread#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#run#0;class#BFDFrameProcessing#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#onBackPressed#0;class#BFDMainActivity#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/ConnectBluet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/ConnectBlueToothDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -3010,16 +3182,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bfd_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="2599">
@@ -3034,6 +3196,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3066,7 +3229,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1219">
           <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#3918#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3202#3203#0" expanded="false" />
+            <element signature="e#3237#3238#0" expanded="false" />
+            <element signature="method#ImageButton#1;class#ImageButton#0" expanded="false" />
+            <element signature="method#ImageButton#2;class#ImageButton#0" expanded="false" />
+            <element signature="method#ImageButton#3;class#ImageButton#0" expanded="false" />
+            <element signature="e#3767#3768#0" expanded="false" />
+            <element signature="e#3795#3796#0" expanded="false" />
+            <element signature="e#3864#3865#0" expanded="false" />
+            <element signature="e#3914#3915#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3075,10 +3250,7 @@
         <state relative-caret-position="276">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onClick#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onTouch#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3088,8 +3260,110 @@
         <state relative-caret-position="8372">
           <caret line="519" column="18" selection-start-line="519" selection-start-column="18" selection-end-line="519" selection-end-column="18" />
           <folding>
-            <element signature="e#19077#19078#0" expanded="true" />
-            <element signature="e#19134#19135#0" expanded="true" />
+            <element signature="e#0#58450#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2110#2111#0" expanded="false" />
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="initializer##0;class#String#0" expanded="false" />
+            <element signature="e#2794#2795#0" expanded="false" />
+            <element signature="e#2879#2880#0" expanded="false" />
+            <element signature="method#String#1;class#String#0" expanded="false" />
+            <element signature="method#String#2;class#String#0" expanded="false" />
+            <element signature="method#String#3;class#String#0" expanded="false" />
+            <element signature="method#String#4;class#String#0" expanded="false" />
+            <element signature="method#String#5;class#String#0" expanded="false" />
+            <element signature="method#String#6;class#String#0" expanded="false" />
+            <element signature="method#String#7;class#String#0" expanded="false" />
+            <element signature="method#String#8;class#String#0" expanded="false" />
+            <element signature="method#String#9;class#String#0" expanded="false" />
+            <element signature="method#String#10;class#String#0" expanded="false" />
+            <element signature="method#String#11;class#String#0" expanded="false" />
+            <element signature="method#String#12;class#String#0" expanded="false" />
+            <element signature="method#String#13;class#String#0" expanded="false" />
+            <element signature="method#String#14;class#String#0" expanded="false" />
+            <element signature="method#String#15;class#String#0" expanded="false" />
+            <element signature="method#indexAndLength#0;class#String#0" expanded="false" />
+            <element signature="method#startEndAndLength#0;class#String#0" expanded="false" />
+            <element signature="method#failedBoundsCheck#0;class#String#0" expanded="false" />
+            <element signature="method#foldCase#0;class#String#0" expanded="false" />
+            <element signature="method#compareToIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="method#copyValueOf#0;class#String#0" expanded="false" />
+            <element signature="method#copyValueOf#1;class#String#0" expanded="false" />
+            <element signature="method#endsWith#0;class#String#0" expanded="false" />
+            <element signature="method#equals#0;class#String#0" expanded="false" />
+            <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="method#getBytes#0;class#String#0" expanded="false" />
+            <element signature="method#getBytes#2;class#String#0" expanded="false" />
+            <element signature="method#getBytes#3;class#String#0" expanded="false" />
+            <element signature="method#getChars#0;class#String#0" expanded="false" />
+            <element signature="method#hashCode#0;class#String#0" expanded="false" />
+            <element signature="method#indexOf#0;class#String#0" expanded="false" />
+            <element signature="method#indexOf#1;class#String#0" expanded="false" />
+            <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#indexOf#2;class#String#0" expanded="false" />
+            <element signature="method#indexOf#3;class#String#0" expanded="false" />
+            <element signature="e#27409#27410#0" expanded="false" />
+            <element signature="e#27442#27443#0" expanded="false" />
+            <element signature="method#lastIndexOf#0;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#2;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
+            <element signature="e#30964#30965#0" expanded="false" />
+            <element signature="e#30992#30993#0" expanded="false" />
+            <element signature="method#regionMatches#0;class#String#0" expanded="false" />
+            <element signature="method#regionMatches#1;class#String#0" expanded="false" />
+            <element signature="method#replace#0;class#String#0" expanded="false" />
+            <element signature="method#replace#1;class#String#0" expanded="false" />
+            <element signature="e#37343#37344#0" expanded="false" />
+            <element signature="e#37387#37388#0" expanded="false" />
+            <element signature="method#startsWith#1;class#String#0" expanded="false" />
+            <element signature="method#substring#0;class#String#0" expanded="false" />
+            <element signature="method#substring#1;class#String#0" expanded="false" />
+            <element signature="e#40011#40012#0" expanded="false" />
+            <element signature="e#40083#40084#0" expanded="false" />
+            <element signature="e#40906#40907#0" expanded="false" />
+            <element signature="e#40965#40966#0" expanded="false" />
+            <element signature="e#41055#41056#0" expanded="false" />
+            <element signature="e#41082#41083#0" expanded="false" />
+            <element signature="e#41415#41416#0" expanded="false" />
+            <element signature="e#41494#41495#0" expanded="false" />
+            <element signature="e#42322#42323#0" expanded="false" />
+            <element signature="e#42388#42389#0" expanded="false" />
+            <element signature="method#trim#0;class#String#0" expanded="false" />
+            <element signature="method#valueOf#0;class#String#0" expanded="false" />
+            <element signature="method#valueOf#1;class#String#0" expanded="false" />
+            <element signature="method#valueOf#2;class#String#0" expanded="false" />
+            <element signature="e#44429#44430#0" expanded="false" />
+            <element signature="e#44474#44475#0" expanded="false" />
+            <element signature="e#44600#44601#0" expanded="false" />
+            <element signature="e#44644#44645#0" expanded="false" />
+            <element signature="e#44766#44767#0" expanded="false" />
+            <element signature="e#44812#44813#0" expanded="false" />
+            <element signature="e#44936#44937#0" expanded="false" />
+            <element signature="e#44979#44980#0" expanded="false" />
+            <element signature="e#45385#45386#0" expanded="false" />
+            <element signature="e#45449#45450#0" expanded="false" />
+            <element signature="e#45796#45797#0" expanded="false" />
+            <element signature="e#45843#45844#0" expanded="false" />
+            <element signature="method#contentEquals#0;class#String#0" expanded="false" />
+            <element signature="method#contentEquals#1;class#String#0" expanded="false" />
+            <element signature="method#matches#0;class#String#0" expanded="false" />
+            <element signature="method#replaceAll#0;class#String#0" expanded="false" />
+            <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
+            <element signature="e#50307#50308#0" expanded="false" />
+            <element signature="e#50357#50358#0" expanded="false" />
+            <element signature="method#split#1;class#String#0" expanded="false" />
+            <element signature="e#51666#51667#0" expanded="false" />
+            <element signature="e#51710#51711#0" expanded="false" />
+            <element signature="method#codePointAt#0;class#String#0" expanded="false" />
+            <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
+            <element signature="method#codePointCount#0;class#String#0" expanded="false" />
+            <element signature="method#contains#0;class#String#0" expanded="false" />
+            <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
+            <element signature="method#format#0;class#String#0" expanded="false" />
+            <element signature="method#format#1;class#String#0" expanded="false" />
+            <element signature="method#indexOf#4;class#String#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3099,38 +3373,125 @@
         <state relative-caret-position="1909">
           <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
           <folding>
-            <element signature="method#write#0;class#BlueToothService#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#SetWriteState#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#BlueToothService#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#HasDevice#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#IsOpen#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#OpenDevice#0;class#BlueToothService#0" expanded="false" />
+            <element signature="e#2804#2805#0" expanded="false" />
+            <element signature="e#2828#2829#0" expanded="false" />
+            <element signature="method#GetBondedDevice#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#ScanDevice#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#StopScan#0;class#BlueToothService#0" expanded="false" />
+            <element signature="e#3871#3872#0" expanded="false" />
+            <element signature="e#3894#3895#0" expanded="false" />
+            <element signature="e#3959#3960#0" expanded="false" />
+            <element signature="e#3987#3988#0" expanded="false" />
+            <element signature="method#onReceive#0;class#4039:4943" expanded="false" />
+            <element signature="method#OnFinished#0;class#4039:4943" expanded="false" />
+            <element signature="method#ConnectToDevice#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#start#0;class#BlueToothService#0" expanded="false" />
+            <element signature="e#6129#6130#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
             <element signature="method#getState#0;class#BlueToothService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3795">
-          <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
-          <folding>
-            <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="e#6782#6855#0" expanded="false" />
-            <element signature="method#dispatchTouchEvent#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#run#0;class#RenderThread#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#run#0;class#BFDFrameProcessing#0;class#BFDMainActivity#0" expanded="true" />
-            <element signature="method#onBackPressed#0;class#BFDMainActivity#0" expanded="true" />
+            <element signature="e#6264#6265#0" expanded="false" />
+            <element signature="e#6288#6289#0" expanded="false" />
+            <element signature="method#GetScanState#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#connect#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#DisConnected#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#connected#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#stop#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#connectionSuccess#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#connectionFailed#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#connectionLost#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#Nopointstart#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#AcceptThread#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#run#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#cancel#0;class#AcceptThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#ConnectThread#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#run#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#cancel#0;class#ConnectThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#ConnectedThread#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#run#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#write#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
+            <element signature="method#cancel#0;class#ConnectedThread#0;class#BlueToothService#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="115">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#FollowOBJ#0;class#FollowOBJ#0" expanded="true" />
+            <element signature="method#calculate#0;class#FollowOBJ#0" expanded="true" />
             <element signature="method#setNow_x#0;class#FollowOBJ#0" expanded="true" />
             <element signature="method#setNow_y#0;class#FollowOBJ#0" expanded="true" />
             <element signature="method#setNow_width#0;class#FollowOBJ#0" expanded="true" />
             <element signature="method#setNow_height#0;class#FollowOBJ#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MyImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="method#MyImageView#0;class#MyImageView#0" expanded="false" />
+            <element signature="method#SetData#0;class#MyImageView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bfd_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://H:/Android/sdk/sources/android-23/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="204" column="30" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Android/sdk/sources/android-23/android/hardware/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="881" column="35" selection-start-line="881" selection-start-column="35" selection-end-line="881" selection-end-column="35" />
+          <folding>
+            <element signature="method#addCallbackBuffer#0;class#Camera#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+          <folding>
+            <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
+            <element signature="e#6782#6855#0" expanded="false" />
+            <element signature="e#7232#10024#0" expanded="true" />
+            <element signature="e#10023#10024#0" expanded="true" />
+            <element signature="method#dispatchTouchEvent#0;class#BFDMainActivity#0" expanded="true" />
+            <element signature="method#onPreviewFrame#0;class#CameraLoader#0;class#BFDMainActivity#0" expanded="true" />
+            <element signature="e#17167#17232#0" expanded="false" />
+            <element signature="e#21393#21611#0" expanded="true" />
+            <element signature="e#21610#21611#0" expanded="true" />
+            <element signature="method#run#0;class#BFDFrameProcessing#0;class#BFDMainActivity#0" expanded="true" />
+            <element signature="method#onBackPressed#0;class#BFDMainActivity#0" expanded="true" />
           </folding>
         </state>
       </provider>
