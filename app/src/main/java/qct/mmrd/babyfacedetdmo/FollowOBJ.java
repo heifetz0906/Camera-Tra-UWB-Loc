@@ -20,7 +20,7 @@ public class FollowOBJ {
     public int y_error;//距离上边沿的位置
     public int w_error;//方框的宽度
     public int h_error;//方框的高度
-
+    private boolean loose=false;
     public FollowOBJ(int x, int y, int width, int height) {
         this.x = x;
         this.y = y;
@@ -30,28 +30,47 @@ public class FollowOBJ {
 
     public String calculate()
     {
-        String send=null;
+        StringBuilder send=new StringBuilder();
         if(now_x==0&&now_y==0&&now_width==0&&now_height==0)
         {
-            send="KG";//如果丢失目标，就顺时针旋转寻找目标
+            if(loose==false) {
+                loose = true;
+            send.append("K");
+            }
+            send.append("G");//如果丢失目标，就顺时针旋转寻找目标
+            return send.toString();
         }else {
-            if((abs(x_error)<15)&&(abs(y_error)<15)&&(abs(w_error)<15)&(abs(h_error)<15))
+            if(loose==true)
             {
-                send="Z";//差距不大时停止
+                loose=false;
+                send.append("J");
+            }
+            if((abs(x_error)<15)&&(abs(y_error)<15)&&(abs(w_error)<15)&&(abs(h_error)<15))
+            {
+                send.append("Z");//差距不大时停止
+                return send.toString();
             }else
             {
-               if(x_error<-15&&y_error<-15)//x误差小于-15 y误差小于-15，方块位于左上角，小车应该向左后方移动。
+               if(x_error<-15&&y_error<-15)//x误差小于-15 y误差小于-15，方块位于左上方，小车应该向左后方移动。
                {
-                   send="F";
-               }else if(x_error<-15&&y_error>15)//x误差小于-15 y误差大于15，方块位于，小车应该向左后方移动。
+                   send.append("F");
+                   return send.toString();
+               }else if(x_error<-15&&y_error>15)//x误差小于-15 y误差大于15，方块位于左下方，小车应该向左前方移动。
                {
-
+                   send.append("H");
+                   return send.toString();
+               }else if (x_error>15&&y_error<-15)//x误差大于15 y误差小于-15，方块位于右上方，小车应该向右后方移动。
+               {
+                   send.append("D");
+                   return send.toString();
+               }else if (x_error>15&&y_error>15)//x误差大于15 y误差大于15，方块位于右下方，小车应该向右前方移动。
+               {
+                   send.append("B");
+                   return send.toString();
                }
             }
-
         }
-        return send;
-
+        return send.toString();
     }
 
     public int getX() {

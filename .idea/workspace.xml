@@ -14,36 +14,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f72254-4cf2-48a6-9b3a-758c1d484f1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$BFDFrameProcessing$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$BFDFrameProcessing$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$BFDFrameProcessing.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$BFDFrameProcessing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$CameraLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$CameraLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$MyTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$MyTimerTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$MyTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$MyTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$RenderThread$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$RenderThread$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$RenderThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity$RenderThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/BFDMainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/FollowOBJ.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/qct/mmrd/babyfacedetdmo/FollowOBJ.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_92e9e84c6aa4c6e6852add3aa6a287747e72eca2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_92e9e84c6aa4c6e6852add3aa6a287747e72eca2.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" afterPath="$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java" />
     </list>
     <ignored path="BabyFaceDetDmo1201.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +66,8 @@
       <file leaf-file-name="FollowOBJ.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="393">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#FollowOBJ#0;class#FollowOBJ#0" expanded="true" />
@@ -95,8 +83,8 @@
       <file leaf-file-name="BFDMainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="638" column="39" selection-start-line="638" selection-start-column="39" selection-end-line="638" selection-end-column="39" />
+            <state relative-caret-position="3795">
+              <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
               <folding>
                 <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
                 <element signature="e#6782#6855#0" expanded="false" />
@@ -109,10 +97,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BlueToothService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BlueToothService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+              <folding>
+                <element signature="method#write#0;class#BlueToothService#0" expanded="true" />
+                <element signature="method#getState#0;class#BlueToothService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="file://H:/Android/sdk/sources/android-23/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8372">
+              <caret line="519" column="18" selection-start-line="519" selection-start-column="18" selection-end-line="519" selection-end-column="18" />
+              <folding>
+                <element signature="e#19077#19078#0" expanded="true" />
+                <element signature="e#19134#19135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onClick#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onTouch#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ImageButton.java" pinned="false" current-in-tab="false">
         <entry file="file://H:/Android/sdk/sources/android-23/android/widget/ImageButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="1219">
               <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding />
             </state>
@@ -2316,6 +2345,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2324,40 +2355,10 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BabyFaceDetDmo12011" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BabyFaceDetDmo12011" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="babyfacedetdmo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2715,7 +2716,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6629464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40513393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2757,14 +2758,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/ConnectBlueToothDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -2791,7 +2784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2824,13 +2816,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/connectbt.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://H:/Android/sdk/platforms/android-22/data/res/values/colors.xml">
@@ -2862,36 +2854,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_name.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_dialog.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_dialog.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://H:/Android/sdk/platforms/android-22/android.jar!/android/app/Dialog.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BlueToothService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -3030,30 +3015,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bfd_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="2599">
           <caret line="113" column="43" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/ConnectBluet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3064,19 +3048,6 @@
           <folding>
             <element signature="e#2659#2660#0" expanded="true" />
             <element signature="e#2699#2700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onClick#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onTouch#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3095,10 +3066,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://H:/Android/sdk/sources/android-23/android/widget/ImageButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onClick#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onTouch#0;class#ButtonListener#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Android/sdk/sources/android-23/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8372">
+          <caret line="519" column="18" selection-start-line="519" selection-start-column="18" selection-end-line="519" selection-end-column="18" />
+          <folding>
+            <element signature="e#19077#19078#0" expanded="true" />
+            <element signature="e#19134#19135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BlueToothService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+          <folding>
+            <element signature="method#write#0;class#BlueToothService#0" expanded="true" />
+            <element signature="method#getState#0;class#BlueToothService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/BFDMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="638" column="39" selection-start-line="638" selection-start-column="39" selection-end-line="638" selection-end-column="39" />
+        <state relative-caret-position="3795">
+          <caret line="643" column="35" selection-start-line="643" selection-start-column="35" selection-end-line="643" selection-end-column="35" />
           <folding>
             <element signature="method#onCreate#0;class#BFDMainActivity#0" expanded="true" />
             <element signature="e#6782#6855#0" expanded="false" />
@@ -3110,18 +3124,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://H:/Android/sdk/sources/android-23/android/widget/ImageButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/qct/mmrd/babyfacedetdmo/FollowOBJ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="393">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#FollowOBJ#0;class#FollowOBJ#0" expanded="true" />

@@ -619,6 +619,7 @@ public class BFDMainActivity extends Activity {
 
     private void calculateViewPosition(float x, float y, float ex, float ey) {
     	if(isInit == 1){
+            String sendSting=null;
     		RelativeLayout.LayoutParams rl = (LayoutParams) systemFrame.getLayoutParams();
             rl.leftMargin = (int) Math.min(x, ex);//leftMArgin为与左边沿的距离
             rl.topMargin = (int) Math.min(y, ey);//topMargin为与上边沿的距离
@@ -640,8 +641,10 @@ public class BFDMainActivity extends Activity {
 
                 //String sendString = "A"+obj.x_error + "\rB" + obj.y_error + "\rC" + obj.w_error + "\rD" + obj.w_error + "\n";
 
+                sendSting=obj.calculate();
+
                 if(isConnected && startSend){
-                    mBTService.write(sendString.getBytes());
+                    mBTService.write(sendSting.getBytes());
                 }
             }
             systemFrame.setLayoutParams(rl);
