@@ -45,25 +45,25 @@ public class FollowOBJ {
                 loose=false;
                 send.append("J");
             }
-            if((abs(x_error)<15)&&(abs(y_error)<15)&&(abs(w_error)<15)&&(abs(h_error)<15))
+            if((abs(x_error)<20)&&(abs(y_error)<20)&&(abs(w_error)<20)&&(abs(h_error)<20))
             {
                 send.append("Z");//差距不大时停止
                 return send.toString();
             }else
             {
-               if(x_error<-15&&y_error<-15)//x误差小于-15 y误差小于-15，方块位于左上方，小车应该向左后方移动。
+               if(x_error<-20&&y_error<-20)//x误差小于-20 y误差小于-20，方块位于左上方，小车应该向左后方移动。
                {
                    send.append("F");
                    return send.toString();
-               }else if(x_error<-15&&y_error>15)//x误差小于-15 y误差大于15，方块位于左下方，小车应该向左前方移动。
+               }else if(x_error<-20&&y_error>20)//x误差小于-20 y误差大于20，方块位于左下方，小车应该向左前方移动。
                {
                    send.append("H");
                    return send.toString();
-               }else if (x_error>15&&y_error<-15)//x误差大于15 y误差小于-15，方块位于右上方，小车应该向右后方移动。
+               }else if (x_error>20&&y_error<-20)//x误差大于20 y误差小于-20，方块位于右上方，小车应该向右后方移动。
                {
                    send.append("D");
                    return send.toString();
-               }else if (x_error>15&&y_error>15)//x误差大于15 y误差大于15，方块位于右下方，小车应该向右前方移动。
+               }else if (x_error>20&&y_error>20)//x误差大于20 y误差大于20，方块位于右下方，小车应该向右前方移动。
                {
                    send.append("B");
                    return send.toString();
