@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     private TextView txconnect,txPowerStatus,txStatus;
     private Button Btup, Btdown, Btnishizheng, Btshunshizheng, Btright, Btleft;
     private ImageView ivguihua;
-    private String sendString;
+    private byte[] sendBufeer={(byte)0xFF,(byte)0xFE,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +55,9 @@ public class MainActivity extends Activity {
         Btleft.setOnTouchListener(buttonListener);
         Btright.setOnTouchListener(buttonListener);
         ivguihua.setOnClickListener(buttonListener);
+        if(isConnected && startSend){
+            mBTService.write(sendBufeer);
+        }
     }
 
     class ButtonListener implements View.OnClickListener, View.OnTouchListener {
@@ -79,85 +82,85 @@ public class MainActivity extends Activity {
             switch (v.getId()) {
                 case R.id.Bt_up:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "A";
+                        int2byte(sendBufeer,0,50,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
                 case R.id.Bt_down:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "E";
+                        int2byte(sendBufeer,0,-50,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
                 case R.id.Bt_right:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "JC";
+                        int2byte(sendBufeer,50,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
                 case R.id.Bt_left:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "JG";
+                        int2byte(sendBufeer,-50,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
                 case R.id.Bt_shunshizheng:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "KG";
+                        int2byte(sendBufeer,0,0,-50);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
                 case R.id.Bt_nishizheng:
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        sendString= "KC";
+                        int2byte(sendBufeer,0,0,50);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     if (event.getAction() == MotionEvent.ACTION_UP) {
-                        sendString= "Z";
+                        int2byte(sendBufeer,0,0,0);
                         if(isConnected && startSend){
-                            mBTService.write(sendString.getBytes());
+                            mBTService.write(sendBufeer);
                         }
                     }
                     break;
@@ -171,5 +174,45 @@ public class MainActivity extends Activity {
     public void onBackPressed() {
         super.onBackPressed();
         finish();
+    }
+
+    private void int2byte (byte[] in,int x,int y,int z)
+    {
+        if(x>=0)
+        {
+            in[9]&=0xFB;
+            in[9]|=0x00;
+        }else
+        {
+            in[9]&=0xFB;
+            in[9]|=0x04;
+            x=-x;
+        }
+        in[3]=(byte) ((x&0xFF00)>>8);
+        in[4]=(byte)((x&0x00FF));
+        if(y>=0)
+        {
+            in[9]&=0xFD;
+            in[9]|=0x00;
+        }else
+        {
+            in[9]&=0xFB;
+            in[9]|=0x02;
+            y=-y;
+        }
+        in[5]=(byte) ((y&0xFF00)>>8);
+        in[6]=(byte)((y&0x00FF));
+        if(z>=0)
+        {
+            in[9]&=0xFE;
+            in[9]|=0x00;
+        }else
+        {
+            in[9]&=0xFE;
+            in[9]|=0x01;
+            z=-z;
+        }
+        in[7]=(byte) ((z&0xFF00)>>8);
+        in[8]=(byte)((z&0x00FF));
     }
 }

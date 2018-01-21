@@ -51,6 +51,7 @@ public class BFDMainActivity extends Activity {
     private final int MAX_FRAME_BUFF_NO = 6;
     static public final int MAX_NUM_FACES = 10;
     static public final int NUM_FRAMES_FILTER = 7; //num frames for filtering
+    private byte[] sendBufeer={(byte)0xFF,(byte)0xFE,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 
     ImageButton mCameraSwitchButton;
 
@@ -619,7 +620,6 @@ public class BFDMainActivity extends Activity {
 
     private void calculateViewPosition(float x, float y, float ex, float ey) {
     	if(isInit == 1){
-            String sendSting=null;
     		RelativeLayout.LayoutParams rl = (LayoutParams) systemFrame.getLayoutParams();
             rl.leftMargin = (int) Math.min(x, ex);//leftMArgin为与左边沿的距离
             rl.topMargin = (int) Math.min(y, ey);//topMargin为与上边沿的距离
@@ -627,24 +627,21 @@ public class BFDMainActivity extends Activity {
             rl.height = Math.abs((int)(y - ey));//height为高度  思路。控制4个距离在一个范围里
             if(setStauts==true)
             {
-                obj.setX(rl.leftMargin);
-                obj.setY(rl.topMargin);
-                obj.setWidth(rl.width);
-                obj.setHeight(rl.height);
+                obj.setPoint(rl.topMargin,rl.leftMargin, rl.width,rl.height);
                 setStauts=false;
             }
             else {
-                obj.setNow_x(rl.leftMargin);
-                obj.setNow_y(rl.topMargin);
-                obj.setNow_width(rl.width);
-                obj.setNow_height(rl.height);
+                obj.set_error(rl.topMargin,rl.leftMargin, rl.width,rl.height);
 
                 //String sendString = "A"+obj.x_error + "\rB" + obj.y_error + "\rC" + obj.w_error + "\rD" + obj.w_error + "\n";
 
-                sendSting=obj.calculate();
+                obj.pidcalc(sendBufeer);
 
                 if(isConnected && startSend){
-                    mBTService.write(sendSting.getBytes());
+                    mBTService.write(sendBufeer);
+                }else {
+                    sendBufeer= new byte[]{(byte) 0xFF, (byte) 0xFE, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+                    mBTService.write(sendBufeer);
                 }
             }
             systemFrame.setLayoutParams(rl);
