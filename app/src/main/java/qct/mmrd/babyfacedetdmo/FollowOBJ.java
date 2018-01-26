@@ -97,8 +97,13 @@ public class FollowOBJ {
     public int pidcalc(byte[] input)
     {
         int y,z;
-        y=(int )(yP*width_error+yD*width_e_error);
-        z=(int )(zP*left_error+zD*left_e_error);
+        if(width_error>0) {  //跟随前进的时候速度加快一点
+            y = (int) ((yP+0.2)* width_error + yD * width_e_error);     //width_error大于0的时候是说明，目标太远。需要前进
+        }else
+        {//后退时正常速度
+            y = (int) (yP* width_error + yD * width_e_error);
+        }
+        z=(int )(zP*left_error+zD*left_e_error);        //left_error大于0的时候是说明，目标在右。需要左转
         if (y>40)y=40;
         if(y<-40)y=-40;
         if (z>40)z=40;
@@ -106,7 +111,7 @@ public class FollowOBJ {
         Log.d(TAG,"y:"+y+"Z:"+z+"width_error:"+width_error+"left_error"+left_error);
         if(loose==true)
         {
-            int2byte(input, 0, 0, 40);
+            int2byte(input, 0, 0, 30);
             return 0;
         }
         else {
@@ -173,8 +178,8 @@ public class FollowOBJ {
             this.height_last_error = this.height_error;
             //本次误差
             this.top_error = now_top - this.top;
-            this.left_error = this.left - now_left;
-            this.width_error = this.width - now_width;
+            this.left_error = this.left - now_left;    //y轴是前后方向，前是正，后是负。所以用设定值减去目前值
+            this.width_error = this.width - now_width; //z轴是旋转方向，逆时针是正，顺时针是负。所以用设定值减去目前值
             this.height_error = now_height - this.height;
             //误差的误差
             this.top_e_error = this.top_last_error - this.top_error;
