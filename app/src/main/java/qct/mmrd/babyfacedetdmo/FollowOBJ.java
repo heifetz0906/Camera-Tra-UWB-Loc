@@ -45,8 +45,8 @@ public class FollowOBJ {
         this.height = height;
         this.yP=0.5;
         this.yD=0;
-        this.zP=0.2;
-        this.zD=0;
+        this.zP=0.15;
+        this.zD=-0.2;//减小一点波动
     }//构造构造函数，用于设定目标值
 
 //    public String calculate()
@@ -98,13 +98,13 @@ public class FollowOBJ {
     {
         int y,z;
         if(width_error>0) {  //跟随前进的时候速度加快一点
-            y = (int) ((yP+0.2)* width_error + yD * width_e_error);     //width_error大于0的时候是说明，目标太远。需要前进
+            y = (int) (yP* width_error*2 + yD * width_e_error);     //width_error大于0的时候是说明，目标太远。需要前进
         }else
         {//后退时正常速度
             y = (int) (yP* width_error + yD * width_e_error);
         }
         z=(int )(zP*left_error+zD*left_e_error);        //left_error大于0的时候是说明，目标在右。需要左转
-        if (y>40)y=40;
+        if (y>55)y=55;
         if(y<-40)y=-40;
         if (z>40)z=40;
         if(z<-40)z=-40;
@@ -115,7 +115,7 @@ public class FollowOBJ {
             return 0;
         }
         else {
-            if (abs(y) < 20 && abs(z) < 20) {
+            if (abs(y) < 30 && abs(z) < 30) {
                 int2byte(input, 0, y, z);
                 return 0;
             } else {
@@ -161,7 +161,7 @@ public class FollowOBJ {
     {
         this.top=now_top;
         this.left=now_left;
-        this.width=now_width;
+        this.width=now_width+20;//设定宽度加20，使他更向前一点
         this.height=now_height;
     }
 
